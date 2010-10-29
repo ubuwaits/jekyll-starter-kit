@@ -1,0 +1,71 @@
+form {
+  background: #f5f5f5;
+  border: 2px solid #d1d1d1;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -webkit-box-shadow: inset 0 0 10px 3px #ccc;
+  margin: 100px auto;
+  padding: 0;
+  width: 318px;
+}
+
+form fieldset {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: inline;
+}
+
+form fieldset.inputs {
+  float: left;
+  margin: 0px 0 0 0;
+  width: 235px;
+}
+
+form fieldset.buttons {
+  float: right;
+  margin: 2px 2px 0 0;
+}
+
+form ol,
+form li {
+  margin: 0;
+}
+
+form label {
+  display: none;
+}
+
+form input[type="text"] {
+  background: transparent;
+  border: 0;
+  float: right;
+  font-size: 14px;
+  padding: 8px 5px 8px 10px;
+  width: 220px;
+}
+
+form input[type="submit"] {
+  background: #ea8309;
+  border: 1px solid #aa5f07;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px 0px #eab16e;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  font-size: 14px;
+  height: 33px;
+  line-height: 1;
+  margin: 2px 2px 2px 0;
+  padding: 8px 12px 7px 12px;
+  text-shadow: 0 1px 1px #aa5f07;
+  width: 75px;
+}
+
+form input[type="submit"]:hover {
+  cursor: pointer;
+}

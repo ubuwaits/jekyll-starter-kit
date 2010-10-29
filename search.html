@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title>Search</title>
+    <link rel="stylesheet" href="css/reset.css" media="screen">
+    <link rel="stylesheet" href="css/screen.css" media="screen">
+    <link rel="stylesheet" href="css/search.css" media="screen">
+  </head>
+
+  <body>
+
+    <form accept-charset="UTF-8" action="/searches" class="formtastic search clearfix" method="get">
+      <div style="margin:0;padding:0;display:inline">
+        <input name="utf8" type="hidden" value="&#x2713;" />
+      </div>
+
+      <fieldset class="inputs">
+        <ol>
+          <li class="string required" id="search_query_input">
+            <label for="search_query">Query<abbr title="required">*</abbr></label>
+            <input id="search_query" name="search[query]" size="50" type="text" value="" />
+          </li>
+        </ol>
+      </fieldset>
+
+      <fieldset class="buttons">
+        <ol>
+          <input class="search" id="search_submit" name="commit" type="submit" value="Search" />
+        </ol>
+      </fieldset>
+    </form>
+
+  </body>
+</html>
