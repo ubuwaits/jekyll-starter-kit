@@ -2,3 +2,8 @@ body {
   font-family: "helvetica neue", helvetica, arial, sans-serif;
   text-rendering: optimizeLegibility;
 }
+
+#container {
+  margin: 10px auto;
+  width: 960px;
+}
