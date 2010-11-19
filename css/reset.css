@@ -60,17 +60,6 @@ table {
 
 /* Clear Floated Elements
 ------------------------------------------------------------------------------*/
-/* http://sonspring.com/journal/clearing-floats */
-.clear {
-	clear: both;
-	display: block;
-	overflow: hidden;
-	visibility: hidden;
-	width: 0;
-	height: 0;
-}
-
-/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
 .clearfix:after {
 	clear: both;
 	content: ' ';
@@ -80,16 +69,4 @@ table {
 	visibility: hidden;
 	width: 0;
 	height: 0;
-}
-
-.clearfix {
-  display: inline-block;
-}
-
-* html .clearfix {
-	height: 1%;
-}
-
-.clearfix {
-  display: block;
 }
