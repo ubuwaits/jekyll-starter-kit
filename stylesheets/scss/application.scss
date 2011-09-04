@@ -1,8 +1,7 @@
+@import 'bourbon/bourbon';
+@import 'reset';
+
 body {
   font-family: "helvetica neue", helvetica, arial, sans-serif;
 }
 
-#container {
-  margin: 10px auto;
-  width: 960px;
-}
