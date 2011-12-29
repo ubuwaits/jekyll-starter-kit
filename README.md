@@ -9,3 +9,7 @@ Includes:
 * [Bourbon](https://github.com/thoughtbot/bourbon)
 * .gitignore file
 
+Watch the Sass directory with the follow command:
+
+    sass --watch stylesheets/scss:stylesheets -r ./stylesheets/scss/bourbon/lib/bourbon.rb
+
