@@ -4,4 +4,5 @@ title: Hello, world.
 keyword: index
 ---
 
-<p>Hello, world.</p>
+Hello, world. Isn't it nice when your quotes are smart?
+
