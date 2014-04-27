@@ -6,5 +6,5 @@ Includes sensible defaults for Jekyll (smart quotes, pretty URLs) and minimal HT
 
 Start the Jekyll server and watch the Sass/Bourbon files with:
 
-    rake server
+    rake serve
 
