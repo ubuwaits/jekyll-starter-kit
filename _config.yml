@@ -1,6 +1,5 @@
 markdown: rdiscount
 rdiscount:
- extensions: [smart]
+  extensions: [smart]
 
 permalink: "pretty"
-
