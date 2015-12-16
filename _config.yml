@@ -1,5 +1,5 @@
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
+markdown: redcarpet
+redcarpet:
+  extensions: []
 
 permalink: "pretty"
