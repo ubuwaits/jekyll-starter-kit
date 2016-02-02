@@ -13,4 +13,3 @@ task :serve do
 
   [jekyllPid, sassPid].each { |pid| Process.wait(pid) }
 end
-
