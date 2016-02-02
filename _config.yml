@@ -1,5 +1,3 @@
-markdown: redcarpet
-redcarpet:
-  extensions: []
+markdown: kramdown
 
 permalink: "pretty"
