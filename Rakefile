@@ -4,7 +4,7 @@ task :serve do
   puts "* Starting Jekyll server and watching Sass files. *"
   puts "***************************************************"
   jekyllPid = Process.spawn('jekyll serve --watch')
-  sassPid = Process.spawn('sass --watch css/scss:stylesheets')
+  sassPid = Process.spawn('sass --watch css/scss:css')
 
   trap("INT") {
     [jekyllPid, sassPid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
