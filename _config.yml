@@ -1,3 +1,10 @@
+title: Title of site
+
 markdown: kramdown
 
-permalink: "pretty"
+permalink: /:title
+
+exclude:
+- Rakefile
+- README.md
+
