@@ -1,9 +1,7 @@
 # Jekyll Starter Kit
 
-A starter kit for static sites and blogs. Uses [Jekyll](https://github.com/mojombo/jekyll/) to generate the site and [Bourbon](https://github.com/thoughtbot/bourbon) to make writing CSS more pleasurable.
+A starter kit for [Jekyll](https://github.com/mojombo/jekyll/)-based sites. Includes sensible defaults for Jekyll and minimal HTML and CSS starting points.
 
-Includes sensible defaults for Jekyll and minimal HTML/CSS/JS starting points.
-
-Start the Jekyll server and watch the Sass/Bourbon files with:
+Start the Jekyll server and watch the Sass files with:
 
     rake serve
