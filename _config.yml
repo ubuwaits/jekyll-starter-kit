@@ -7,4 +7,3 @@ permalink: /:title
 exclude:
 - Rakefile
 - README.md
-

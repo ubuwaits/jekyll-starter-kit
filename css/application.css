@@ -297,7 +297,7 @@ template {
 [hidden] {
   display: none; }
 
-body {
-  font-family: "helvetica neue", helvetica, arial, sans-serif; }
+* {
+  box-sizing: border-box; }
 
 /*# sourceMappingURL=application.css.map */
