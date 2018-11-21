@@ -4,4 +4,4 @@ A starter kit for [Jekyll](https://github.com/jekyll/jekyll)-based sites. Includ
 
 Start the Jekyll server and watch the Sass files with:
 
-    rake serve
+    rake s

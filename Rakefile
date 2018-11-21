@@ -1,5 +1,5 @@
 desc 'Start Jekyll server and watch Sass/Bourbon files'
-task :serve do
+task :s do
   puts "***************************************************"
   puts "* Starting Jekyll server and watching Sass files. *"
   puts "***************************************************"
